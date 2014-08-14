@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE185E53199CB6F800059386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE185E52199CB6F800059386 /* Foundation.framework */; };
+		BE185E55199CB6F800059386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE185E54199CB6F800059386 /* CoreGraphics.framework */; };
+		BE185E57199CB6F800059386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE185E56199CB6F800059386 /* UIKit.framework */; };
+		BE185E5D199CB6F800059386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE185E5B199CB6F800059386 /* InfoPlist.strings */; };
+		BE185E5F199CB6F800059386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE185E5E199CB6F800059386 /* main.m */; };
+		BE185E63199CB6F800059386 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE185E62199CB6F800059386 /* AppDelegate.m */; };
+		BE185E65199CB6F800059386 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE185E64199CB6F800059386 /* Images.xcassets */; };
+		BE185E84199CB70F00059386 /* DXMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE185E83199CB70F00059386 /* DXMarqueeView.m */; };
+		BE185E87199CB73200059386 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE185E86199CB73200059386 /* HomeViewController.m */; };
+		BE185E89199CB7F800059386 /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = BE185E88199CB7F800059386 /* horse.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE185E4F199CB6F800059386 /* MarqueeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE185E52199CB6F800059386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE185E54199CB6F800059386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE185E56199CB6F800059386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE185E5A199CB6F800059386 /* MarqueeViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarqueeViewDemo-Info.plist"; sourceTree = "<group>"; };
+		BE185E5C199CB6F800059386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE185E5E199CB6F800059386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE185E60199CB6F800059386 /* MarqueeViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarqueeViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BE185E61199CB6F800059386 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE185E62199CB6F800059386 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE185E64199CB6F800059386 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE185E6B199CB6F800059386 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE185E82199CB70F00059386 /* DXMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXMarqueeView.h; sourceTree = "<group>"; };
+		BE185E83199CB70F00059386 /* DXMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXMarqueeView.m; sourceTree = "<group>"; };
+		BE185E85199CB73200059386 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BE185E86199CB73200059386 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BE185E88199CB7F800059386 /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE185E4C199CB6F800059386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE185E55199CB6F800059386 /* CoreGraphics.framework in Frameworks */,
+				BE185E57199CB6F800059386 /* UIKit.framework in Frameworks */,
+				BE185E53199CB6F800059386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE185E46199CB6F800059386 = {
+			isa = PBXGroup;
+			children = (
+				BE185E81199CB70F00059386 /* DXMarqueeView */,
+				BE185E58199CB6F800059386 /* MarqueeViewDemo */,
+				BE185E51199CB6F800059386 /* Frameworks */,
+				BE185E50199CB6F800059386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE185E50199CB6F800059386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE185E4F199CB6F800059386 /* MarqueeViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE185E51199CB6F800059386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE185E52199CB6F800059386 /* Foundation.framework */,
+				BE185E54199CB6F800059386 /* CoreGraphics.framework */,
+				BE185E56199CB6F800059386 /* UIKit.framework */,
+				BE185E6B199CB6F800059386 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE185E58199CB6F800059386 /* MarqueeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE185E85199CB73200059386 /* HomeViewController.h */,
+				BE185E86199CB73200059386 /* HomeViewController.m */,
+				BE185E61199CB6F800059386 /* AppDelegate.h */,
+				BE185E62199CB6F800059386 /* AppDelegate.m */,
+				BE185E64199CB6F800059386 /* Images.xcassets */,
+				BE185E59199CB6F800059386 /* Supporting Files */,
+			);
+			path = MarqueeViewDemo;
+			sourceTree = "<group>";
+		};
+		BE185E59199CB6F800059386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE185E88199CB7F800059386 /* horse.png */,
+				BE185E5A199CB6F800059386 /* MarqueeViewDemo-Info.plist */,
+				BE185E5B199CB6F800059386 /* InfoPlist.strings */,
+				BE185E5E199CB6F800059386 /* main.m */,
+				BE185E60199CB6F800059386 /* MarqueeViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE185E81199CB70F00059386 /* DXMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				BE185E82199CB70F00059386 /* DXMarqueeView.h */,
+				BE185E83199CB70F00059386 /* DXMarqueeView.m */,
+			);
+			path = DXMarqueeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE185E4E199CB6F800059386 /* MarqueeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE185E7B199CB6F800059386 /* Build configuration list for PBXNativeTarget "MarqueeViewDemo" */;
+			buildPhases = (
+				BE185E4B199CB6F800059386 /* Sources */,
+				BE185E4C199CB6F800059386 /* Frameworks */,
+				BE185E4D199CB6F800059386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeViewDemo;
+			productName = MarqueeViewDemo;
+			productReference = BE185E4F199CB6F800059386 /* MarqueeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE185E47199CB6F800059386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xiekw;
+			};
+			buildConfigurationList = BE185E4A199CB6F800059386 /* Build configuration list for PBXProject "MarqueeViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE185E46199CB6F800059386;
+			productRefGroup = BE185E50199CB6F800059386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE185E4E199CB6F800059386 /* MarqueeViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE185E4D199CB6F800059386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE185E5D199CB6F800059386 /* InfoPlist.strings in Resources */,
+				BE185E89199CB7F800059386 /* horse.png in Resources */,
+				BE185E65199CB6F800059386 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE185E4B199CB6F800059386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE185E84199CB70F00059386 /* DXMarqueeView.m in Sources */,
+				BE185E63199CB6F800059386 /* AppDelegate.m in Sources */,
+				BE185E5F199CB6F800059386 /* main.m in Sources */,
+				BE185E87199CB73200059386 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE185E5B199CB6F800059386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE185E5C199CB6F800059386 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE185E79199CB6F800059386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE185E7A199CB6F800059386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE185E7C199CB6F800059386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarqueeViewDemo/MarqueeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MarqueeViewDemo/MarqueeViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE185E7D199CB6F800059386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarqueeViewDemo/MarqueeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MarqueeViewDemo/MarqueeViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE185E4A199CB6F800059386 /* Build configuration list for PBXProject "MarqueeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE185E79199CB6F800059386 /* Debug */,
+				BE185E7A199CB6F800059386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE185E7B199CB6F800059386 /* Build configuration list for PBXNativeTarget "MarqueeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE185E7C199CB6F800059386 /* Debug */,
+				BE185E7D199CB6F800059386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE185E47199CB6F800059386 /* Project object */;
+}
